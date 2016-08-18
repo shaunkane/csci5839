@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+jekyll build  && 
+rsync --chmod=a+r -avz _site/ shaunkane_shaunkane@ssh.phx.nearlyfreespeech.net:/home/public/classes/csci5839
