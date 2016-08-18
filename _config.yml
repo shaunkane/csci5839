@@ -7,5 +7,3 @@ description: "Bootstrap theme"
 # Build settings
 markdown: kramdown
 permalink: pretty
-gems:
-  - jekyll-last-modified-at

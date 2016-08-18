@@ -26,11 +26,8 @@
           <ul class="nav navbar-nav">
             <li id="home"><a href="{{ page.root }}index.html">Home</a></li>
 		 <li id="syllabus"><a href="{{ page.root }}syllabus.html">Syllabus</a></li>
-		 			 <li id="assignments"><a href="{{ page.root }}assignments.html">Assignments</a></li>
-					 		 			 <li id="project"><a href="{{ page.root }}project.html">Project</a></li>
             <li id="calendar"><a href=https://docs.google.com/a/colorado.edu/spreadsheets/d/1buQd9hJEMzsPYYlKtFDSn4ric1YP7EgrqsXLFM-mmOs/edit?usp=sharing" target="_blank">Calendar</a></li>
             <li id="discussion"><a href="https://piazza.com/class/irzgwb3cgty63h" target="_blank">Discussion</a></li>
-			<li id="groups"><a href="{{ page.root }}groups.html">Groups</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -40,7 +37,6 @@
 
       <div class="main">
 		  {{ content }}
-		  <p><em>Page last modified {{ page.last_modified_at | date: '%B %-d %Y' }}</em></p>
       </div>
     </div><!-- /.container -->
 	<script src="{{ page.root }}js/jquery-2.1.1.min.js"></script>
